@@ -93,3 +93,15 @@ FROM drivers_license
 WHERE id = 101191 or id = 202298
 -- Miranda Priestly is 5'5, has red hair and drives a Tesla Model S
 -- No record for Bryan Pardo
+
+SELECT *
+FROM income
+WHERE ssn = 987756388
+-- Her annual income is $310,000
+
+-- So, our killer must be Miranda Priestly!
+
+INSERT INTO solution VALUES (1, 'Miranda Priestly');
+SELECT value FROM solution;
+
+-- Congrats, you found the brains behind the murder! Everyone in SQL City hails you as the greatest SQL detective of all time. Time to break out the champagne!
